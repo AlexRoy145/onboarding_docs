@@ -70,7 +70,7 @@ Postgress is the database used by geotagging, to install:
 
 ## Visual Studio Code
 
-Visual Studio Code is our code editing tool. It is Used to provide screenshare capabilities in the ide. To install:
+Visual Studio Code is our code editing tool. It is used to provide screenshare capabilities in the ide. To install:
 
 1. visit https://code.visualstudio.com/download click the mac download.
 2. Once Downloaded, open visual studio code, on the far right of the application, there is a symbol that looks like three boxes joined together,
