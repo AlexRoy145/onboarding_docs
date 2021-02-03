@@ -1,7 +1,8 @@
-Welcome to Devpipeline!
+Welcome to Devpipeline!  
 =======================
-
 In this guide we will help you get started with the different tools that are needed to run our environments and develop our platforms.
+If you have question/comments/concerns, please contact Alex Roy at 385-201-5645 (deffinitly text, I will not pick up the phone)
+
   
 Package Manager
 ---------------
@@ -10,6 +11,7 @@ For the rest of this guide we will need Homebrew Package manager, to install Hom
 2. Into your terminal paste --> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 After the installation is complete, you will need to close your terminal and reopen it.   
 
+
 Xcode Command Line Tools
 ------------------------
 The xcode command line tools are required for several of the below downloads  
@@ -17,9 +19,10 @@ The xcode command line tools are required for several of the below downloads
 2. search --> command line tools
 3. download the first non beta entry  
 
+
 Python
 ------
-Pthon, pipenv and pip will be needed for many of our backend projects, to install these:
+Python, pipenv and pip will be needed for many of our backend projects, to install these:
 1. In your newly oppened Terminal, paste --> (brew --prefix)/opt/python/libexec/bin
 2. Once this is done, paste --> brew install pipx
 3. Once completed, paste --> pipx ensurepath
@@ -46,10 +49,7 @@ zstyle ':vcs_info:*' actionformats \
 zstyle ':vcs_info:*' formats       \
     '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{5}]%f '
 zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
-
 zstyle ':vcs_info:*' enable git cvs svn
-
-# or use pre_cmd, see man zshcontrib
 vcs_info_wrapper() {
   vcs_info
   if [ -n "$vcs_info_msg_0_" ]; then
@@ -57,14 +57,25 @@ vcs_info_wrapper() {
   fi
 }
 RPROMPT=$'$(vcs_info_wrapper)'
-
-# Created by `userpath` on 2021-02-01 18:26:02
 export PATH="$PATH:/Users/alex/.local/bin"  
+
+6. After pasting into the file, write :wq
+
 
 Postgress
 ---------
 Postgress is the database used by geotagging, to install:
 1. Into your terminal paste --> brew install postgresql
 2. Then paste --> brew services start posgres
+3. In your terminal write --> createdb <your-profile-name>
+
+
+Visual Studio Code
+------------------
+Visual Studio Code is Used to provide screenshare capabilities in the ide. To install:
+1. visit https://code.visualstudio.com/download click the mac download.
+2. Once Downloaded, open visual studio code, on the far right of the application, there is a symbol that looks like three boxes joined together, with one box seperated out, click on this symbol, a pannel should open up, in the search bar on the new pannel, search for --> liveshare
+3. In the main window, click install. 
+
 
 
