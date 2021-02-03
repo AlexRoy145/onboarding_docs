@@ -5,7 +5,7 @@ If you have question/comments/concerns, Contact Alex Roy at 385-201-5645 (Text o
 
 ## Package Manager
 
-For the rest of this guide we will need the Homebrew Package manager, to install Homebrew:
+You need the Homebrew Package manager installed on the Macbook Pro, to install Homebrew:
 
 1. Open your mac's terminal (command + space -> then type terminal into the spotlight search that appears and hit enter)
 2. In your terminal paste --> /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -13,7 +13,7 @@ For the rest of this guide we will need the Homebrew Package manager, to install
 
 ## Xcode Command Line Tools
 
-The Xcode command line tools are required for several of the below downloads
+The Xcode command line tools are also required to use in our workflow process.
 
 1. In your browser, visit https://developer.apple.com/download/more/ and sign in
 2. Search --> command line tools.
@@ -21,7 +21,7 @@ The Xcode command line tools are required for several of the below downloads
 
 ## Python
 
-Python, pipenv and pip will be needed for many of our backend projects, to install these:
+Python, pipenv and pip is needed for many of our backend projects, to install these packages:
 
 1. In your newly oppened Terminal, paste --> (brew --prefix)/opt/python/libexec/bin
 2. Once this is done, paste --> brew install pipx
@@ -30,13 +30,13 @@ Python, pipenv and pip will be needed for many of our backend projects, to insta
 
 ## Node
 
-You will need Javascript to develop on the frontend, to install:
+You need Javascript to develop on the frontend, to install:
 
 1. Into your terminal, paste --> brew install node
 
 ## Git
 
-Git is bassically a requirement to develop, to install git:
+We use Git for our development workflow, to install git:
 
 1. In your terminal, paste --> git --version
 2. If it is not installed, it will prompt you to install
@@ -47,13 +47,13 @@ Git is bassically a requirement to develop, to install git:
    autoload -Uz vcs_info
    zstyle ':vcs_info:*' actionformats \
     '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{3}|%F{1}%a%F{5}]%f '
-   zstyle ':vcs_info:_' formats \
+   zstyle ':vcs*info:*' formats \
     '%F{5}(%f%s%F{5})%F{3}-%F{5}[%F{2}%b%F{5}]%f '
-   zstyle ':vcs_info:(sv[nk]|bzr):_' branchformat '%b%F{1}:%F{3}%r'
-   zstyle ':vcs_info:_' enable git cvs svn
-   vcs_info_wrapper() {
+   zstyle ':vcs*info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
+   zstyle ':vcs*info:*' enable git cvs svn
+   vcs*info_wrapper() {
    vcs_info
-   if [ -n "$vcs_info_msg_0_" ]; then
+   if [ -n "$vcs_info_msg_0*" ]; then
    echo "%{$fg[grey]%}${vcs*info_msg_0*}%{$reset_color%}$del"fi}
    RPROMPT=$'$(vcs_info_wrapper)'
    export PATH="$PATH:/Users/alex/.local/bin"
@@ -76,3 +76,4 @@ Visual Studio Code is Used to provide screenshare capabilities in the ide. To in
 2. Once Downloaded, open visual studio code, on the far right of the application, there is a symbol that looks like three boxes joined together,
    with one box seperated out, click on this symbol, a pannel should open up, in the search bar on the new pannel, search for --> liveshare
 3. In the main window, click install.
+4. Make sure you download VS Code into the Application folder for liveshare to work properly.
