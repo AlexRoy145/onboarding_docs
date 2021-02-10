@@ -23,7 +23,10 @@ The Xcode command line tools are also required to use in our workflow process.
 
 Python, pipenv and pip is needed for many of our backend projects, to install these packages:
 
-1. In your newly oppened Terminal, paste --> (brew --prefix)/opt/python/libexec/bin
+Python
+------
+Python, pipenv and pip will be needed for many of our backend projects, to install these:
+1. In your newly opened Terminal, paste --> (brew --prefix)/opt/python/libexec/bin
 2. Once this is done, paste --> brew install pipx
 3. Once completed, paste --> pipx ensurepath
 4. Then paste --> pipx install pipenv
@@ -66,14 +69,12 @@ Postgress is the database used by geotagging, to install:
 
 1. Into your terminal paste --> brew install postgresql
 2. Then paste --> brew services start posgres
-3. In your terminal type --> createdb <your-profile-name>
+3. In your terminal write --> createdb <your-profile-name>
 
-## Visual Studio Code
 
-Visual Studio Code is our code editing tool. It is used to provide screenshare capabilities in the ide. To install:
-
-1. visit https://code.visualstudio.com/download click the mac download.
-2. Once Downloaded, open visual studio code, on the far right of the application, there is a symbol that looks like three boxes joined together,
-   with one box seperated out, click on this symbol, a pannel should open up, in the search bar on the new pannel, search for --> liveshare
-3. In the main window, click install.
-4. Make sure you download VS Code into the Application folder for liveshare to work properly.
+Visual Studio Code
+------------------
+Visual Studio Code is Used to provide screenshare capabilities in the ide. To install:
+1. Visit https://code.visualstudio.com/download click the mac download.
+2. Once Downloaded, open Visual Studio Code, on the far left of the application, there is a symbol that looks like three boxes joined together, with one box seperated out, click on this symbol, a pannel should open up, in the search bar on the new pannel, search for --> liveshare
+3. In the main window, click install. 
