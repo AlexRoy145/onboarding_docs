@@ -12,7 +12,7 @@ we also have the ability to have a physical check for you.
 ## Slack
 
 Slack is how we communicate with each other. It makes work life simpler, more pleasant and more productive. We will set you up with our team
-on Slack. We also encourage you to download the desktop and app version of Slack to stay connected.
+on Slack. We also encourage you to download the desktop and mobile app version of Slack to stay connected.
 
 ## Email WorkForce Service with Paystub Information
 
@@ -26,7 +26,7 @@ pay period. In order for Devpipeline to be reimbursed, Workforce Services needs 
 
 Before an onboarding interview you are encouraged to write down your goals for Devpipeline and share those goals during your onboarding interview.
 Some goal examples should include what your focus is, "Front End", or "Back End." Which languages you prefer, or need more
-help with? Soft skills you think you may need more training in. Along with mentoring there are a few tutorial progams online to help continue your training. Do some research and choose a good tutorial program that will work for you. Everyone learns differently.
+help with, and soft skills you think you may need more training in. Along with mentoring there are a few tutorial progams online to help continue your training. Do some research and choose a good tutorial program that will work for you. Everyone learns differently.
 
 ## Onboarding Interview
 
@@ -34,11 +34,11 @@ Each Devpipeline employee has an onboarding interview. In this interview we hope
 
 ## Welcome Photo
 
-Have a photo ready to use for your profile picture to use for a new hire introduction on our social media pages.
+Have a photo ready to use for your profile picture, and for a new hire introduction on our social media pages.
 
 ## Daily Standup
 
-Every workday Monday-Friday we have a daily standup wich begins at 9:00 a.m. In the standup each person goes over:
+Every workday Monday-Friday we have a daily standup which begins at 9:00 a.m. In the standup each person goes over:
 
 1. What I did yesterday?
 2. What am I working on today?
